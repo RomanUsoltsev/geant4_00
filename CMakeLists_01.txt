@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.20)
+project(geant4_00)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(geant4_00 sim.cpp
+        construction.cpp
+        )

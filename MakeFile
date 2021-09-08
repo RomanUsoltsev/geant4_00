@@ -1,0 +1,14 @@
+
+linters_all_h:
+	python3 materials/linters/cpplint.py --extensions=hh action/*.hh construct/*.hh generation/*.hh physics/*.hh
+
+linters_all_cpp:
+	python3 materials/linters/cpplint.py --extensions=cpp *.cpp action/*.cpp construct/*.cpp generation/*.cpp physics/*.cpp
+
+cppcheck_all_h:
+	cppcheck --enable=all --suppress=missingIncludeSystem action/*.hh construct/*.hh generation/*.hh physics/*.hh
+
+cppcheck_all_cpp:
+	cppcheck --enable=all --suppress=missingIncludeSystem *.cpp action/*.cpp construct/*.cpp generation/*.cpp physics/*.cpp
+clear:
+	rm -rf build/sim

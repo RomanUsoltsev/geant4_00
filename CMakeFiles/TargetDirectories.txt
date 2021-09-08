@@ -1,0 +1,4 @@
+/home/roman/CLionProjects/geant4_00/CMakeFiles/rebuild_cache.dir
+/home/roman/CLionProjects/geant4_00/CMakeFiles/Simulation.dir
+/home/roman/CLionProjects/geant4_00/CMakeFiles/edit_cache.dir
+/home/roman/CLionProjects/geant4_00/CMakeFiles/sim.dir
