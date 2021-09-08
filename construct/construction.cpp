@@ -1,3 +1,4 @@
+
 #include "construction.hh"
 
 MyDetectorConstruction::MyDetectorConstruction()
@@ -51,11 +52,12 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct() {
         logicWorld, "physWorld", 0, false, 0, true);
 
 //    6 tutorial
-    G4Box *solidRadiator = new G4Box("solidRadiator", 0.4 * m, 0.4 * m, 0.01 *m);
+    G4Orb *solidRadiator = new G4Orb( "solidWorld", 0.1 * m);
+//    G4Box *solidRadiator = new G4Box("solidRadiator", 0.4 * m, 0.4 * m, 0.01 *m);
 
     G4LogicalVolume *logicRadiator = new G4LogicalVolume(solidRadiator, Aerogel, "logicRadiator");
 
-    G4VPhysicalVolume *physRadiator = new G4PVPlacement(0, G4ThreeVector(0., 0., 0.25 *m),
+    G4VPhysicalVolume *physRadiator = new G4PVPlacement(0, G4ThreeVector(0. * m, 0. * m, 0. * m),
         logicRadiator, "physRadiator", logicWorld, false, 0, true);
 //    6 tutorial
 

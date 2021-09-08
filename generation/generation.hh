@@ -10,7 +10,6 @@
 #include "G4SystemOfUnits.hh"
 #include "G4ParticleTable.hh"
 #include "G4ThreeVector.hh"
-//#include "G4GeneralParticleSource.hh"
 
 
 class MyPrimaryGeneratorAction : public G4VUserPrimaryGeneratorAction {
@@ -22,6 +21,8 @@ class MyPrimaryGeneratorAction : public G4VUserPrimaryGeneratorAction {
 
  private:
     G4ParticleGun *fParticleGun;
+    G4ParticleGun *fParticleGun_p;
+    G4ParticleGun *fParticleGun_g;
 };
 // class Electron : public G4ElectronNuclearProcess {
 // public:
