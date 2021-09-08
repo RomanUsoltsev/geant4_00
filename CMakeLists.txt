@@ -5,7 +5,6 @@ project(Simulation)
 set(CMAKE_PREFIX_PATH "../../Program/geant4_data/geant4.10.07.p02-install")
 #set(CMAKE_PREFIX_PATH ../../Program/geant4_data/geant4.10.07.p02-install/lib)
 find_package(Geant4 REQUIRED ui_all vis_all)
-include(${Geant4_USE_FILE})
 file(GLOB sources ${PROJECT_SOURSE_DIR}/*.cc)
 file(GLOB headers ${PROJECT_SOURSE_DIR}/*.hh)
 

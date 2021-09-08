@@ -56,7 +56,11 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct() {
     G4LogicalVolume *logicRadiator = new G4LogicalVolume(solidRadiator, Aerogel, "logicRadiator");
 
     G4VPhysicalVolume *physRadiator = new G4PVPlacement(0, G4ThreeVector(0., 0., 0.25 *m),
-        logicRadiator, "physRadiator", logicWorld,false, 0, true);
+        logicRadiator, "physRadiator", logicWorld, false, 0, true);
 //    6 tutorial
+
+//    7 tutorial
+
+//    7 tutorial
     return physWorld;
 }

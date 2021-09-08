@@ -54,6 +54,12 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DG4LIB_BUILD_DLL"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
 					<Add option="-DG4UI_USE_TCSH"/>
 					<Add option="-DG4INTY_USE_XT"/>
 					<Add option="-DG4VIS_USE_RAYTRACERX"/>
@@ -61,12 +67,6 @@
 					<Add option="-DG4UI_USE_QT"/>
 					<Add option="-DG4VIS_USE_OPENGLQT"/>
 					<Add option="-DG4VIS_USE_OPENGL"/>
-					<Add option="-DG4LIB_BUILD_DLL"/>
-					<Add option="-DQT_CORE_LIB"/>
-					<Add option="-DQT_GUI_LIB"/>
-					<Add option="-DQT_WIDGETS_LIB"/>
-					<Add option="-DQT_OPENGL_LIB"/>
-					<Add option="-DQT_PRINTSUPPORT_LIB"/>
 					<Add directory="/home/roman/Program/geant4_data/geant4.10.07.p02-install/include/Geant4"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
@@ -97,6 +97,12 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DG4LIB_BUILD_DLL"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
 					<Add option="-DG4UI_USE_TCSH"/>
 					<Add option="-DG4INTY_USE_XT"/>
 					<Add option="-DG4VIS_USE_RAYTRACERX"/>
@@ -104,12 +110,6 @@
 					<Add option="-DG4UI_USE_QT"/>
 					<Add option="-DG4VIS_USE_OPENGLQT"/>
 					<Add option="-DG4VIS_USE_OPENGL"/>
-					<Add option="-DG4LIB_BUILD_DLL"/>
-					<Add option="-DQT_CORE_LIB"/>
-					<Add option="-DQT_GUI_LIB"/>
-					<Add option="-DQT_WIDGETS_LIB"/>
-					<Add option="-DQT_OPENGL_LIB"/>
-					<Add option="-DQT_PRINTSUPPORT_LIB"/>
 					<Add directory="/home/roman/Program/geant4_data/geant4.10.07.p02-install/include/Geant4"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
@@ -183,9 +183,6 @@
 			<Option virtualFolder="CMake Files\..\..\Program\geant4_data\geant4.10.07.p02-install\lib\Geant4-10.7.2\"/>
 		</Unit>
 		<Unit filename="/home/roman/CLionProjects/geant4_00/../../Program/geant4_data/geant4.10.07.p02-install/lib/Geant4-10.7.2/Geant4PackageCache.cmake">
-			<Option virtualFolder="CMake Files\..\..\Program\geant4_data\geant4.10.07.p02-install\lib\Geant4-10.7.2\"/>
-		</Unit>
-		<Unit filename="/home/roman/CLionProjects/geant4_00/../../Program/geant4_data/geant4.10.07.p02-install/lib/Geant4-10.7.2/UseGeant4.cmake">
 			<Option virtualFolder="CMake Files\..\..\Program\geant4_data\geant4.10.07.p02-install\lib\Geant4-10.7.2\"/>
 		</Unit>
 		<Unit filename="/home/roman/CLionProjects/geant4_00/../../Program/geant4_data/geant4.10.07.p02-install/lib/Geant4-10.7.2/PTL/PTLConfig.cmake">

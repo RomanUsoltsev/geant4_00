@@ -17,7 +17,7 @@ class MyActionInitialization : public G4VUserActionInitialization {
 };
 
 class MyActionInitialization_p : public G4VUserActionInitialization {
-public:
+ public:
     MyActionInitialization_p();
     ~MyActionInitialization_p();
 
